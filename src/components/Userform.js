@@ -7,7 +7,7 @@ export default function Userform() {
     };
     return (
         <div className="container my-3 back" style={mystyle} >
-            <h4>UserForm</h4>
+            <h4>USERFORM</h4>
             <form>
                 <div className="form-row" >
                     <div className="col">
@@ -60,8 +60,15 @@ export default function Userform() {
                         </label>
                     </div>
                 </div>
-                <button type="submit" className="btn btn-primary">Sign in</button>
-
+                <div class="container Register">
+                <button type="submit" className="btn btn-primary">Register</button>
+                <pre>  </pre>
+                </div>
+                <div class="container signin">
+                    
+                    <p>Already have an account? <a href="#">Sign in</a>.</p>
+                </div>
+                <pre>  </pre>
                 
             </form>
             <div class="footer">
