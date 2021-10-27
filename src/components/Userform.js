@@ -23,19 +23,30 @@ export default function Userform() {
                         <input type="email" className="form-control" id="inputEmail4" placeholder="Email"/>
                     </div>
                     <div className="form-group col-md-6">
+                        <label for="inputEmail4">confirm Email</label>
+                        <input type="email" className="form-control" id="inputEmail4" placeholder="Confirm Email"/>
+                    </div>
+                </div>
+                <div className="form-row">
+                <div className="form-group col-md-6">
                         <label for="inputPassword4">Password</label>
                         <input type="password" className="form-control" id="inputPassword4" placeholder="Password"/>
                     </div>
+                    <div className="form-group col-md-6">
+                        <label for="inputPassword4">Confirm Password</label>
+                        <input type="password" className="form-control" id="inputPassword4" placeholder="Confirm Password"/>
+                    </div>
                 </div>
                 <div className="form-group">
-                    <label for="inputAddress">Address</label>
-                    <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St"/>
+                    <label for="inputAddress">Permanent Address</label>
+                    <input type="text" className="form-control" id="inputAddress" placeholder="Permanent Address"/>
                 </div>
                 <div className="form-group">
-                    <label for="inputAddress2">Address 2</label>
-                    <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
+                    <label for="inputAddress2">Current Address</label>
+                    <input type="text" className="form-control" id="inputAddress2" placeholder="Current Address"/>
                 </div>
                 <div className="form-row">
+                    
                     <div className="form-group col-md-6">
                         <label for="inputCity">City</label>
                         <input type="text" className="form-control" id="inputCity"/>
@@ -56,7 +67,7 @@ export default function Userform() {
                     <div className="form-check">
                         <input className="form-check-input" type="checkbox" id="gridCheck"/>
                         <label class ="form-check-label" for="gridCheck">
-                        Check me out
+                        I Agree to Terms
                         </label>
                     </div>
                 </div>
@@ -78,4 +89,5 @@ export default function Userform() {
         
        
     )
+    
 }
